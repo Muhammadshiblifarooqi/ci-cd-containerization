@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #0b5ed7;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Hero */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #0b5ed7, #4dabf7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.hero button {
+    padding: 12px 30px;
+    border: none;
+    background: white;
+    color: #0b5ed7;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Destinations */
+.destinations {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #f1f1f1;
+    padding: 30px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
