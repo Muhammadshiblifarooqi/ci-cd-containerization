@@ -1,8 +1,6 @@
 
 
 
-
-
 # ci-cd-containerization.
 
 
